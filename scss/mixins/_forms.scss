@@ -17,7 +17,7 @@
   .#{$state}-feedback {
     display: none;
     width: 100%;
-    margin-top: $form-feedback-margin-top;
+    margin-top: $form-feedback-margin-block-start;
     @include font-size($form-feedback-font-size);
     font-style: $form-feedback-font-style;
     color: $color;
@@ -79,7 +79,7 @@
       border-color: $color;
 
       @if $enable-validation-icons {
-        padding-right: $form-select-feedback-icon-padding-right;
+        padding-right: $form-select-feedback-icon-padding-inline-end;
         background-image: escape-svg($form-select-indicator), escape-svg($icon);
         background-position: $form-select-bg-position, $form-select-feedback-icon-position;
         background-size: $form-select-bg-size, $form-select-feedback-icon-size;

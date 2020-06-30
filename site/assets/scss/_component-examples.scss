@@ -80,10 +80,10 @@
     margin-right: 0;
     margin-left: 0;
     border-width: 1px;
-    @include border-top-radius(.25rem);
+    @include border-block-start-radius(.25rem);
 
     + .bd-clipboard + .highlight {
-      @include border-bottom-radius(.25rem);
+      @include border-block-end-radius(.25rem);
     }
   }
 
